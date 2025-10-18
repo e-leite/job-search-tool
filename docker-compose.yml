@@ -1,0 +1,15 @@
+services:
+  nginx-api:
+    build:
+      context: ./api
+    ports:
+      - "8080:80"
+    volumes:
+      - ./api:/var/www/html
+    depends_on:
+      - php
+
+  php:
+    image: php:8.2-fpm
+    volumes:
+      - ./api:/var/www/html

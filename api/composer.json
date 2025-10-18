@@ -1,0 +1,15 @@
+{
+    "name": "emerson/api",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Emerson Leite",
+            "email": "emersonleite@galileosoft.com.br"
+        }
+    ],
+    "require": {}
+}
