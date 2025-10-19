@@ -11,5 +11,7 @@
             "email": "emersonleite@galileosoft.com.br"
         }
     ],
-    "require": {}
+    "require": {
+        "psr/http-message": "^2.0"
+    }
 }
